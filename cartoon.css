@@ -1,0 +1,78 @@
+/*
+* @Author: Administrator
+* @Date:   2019-06-24 11:53:07
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-27 16:35:33
+*/
+         .logo1
+        {
+	cursor:pointer;
+	text-align:center;
+	color:#169FE6;
+	font-size:48px;
+	line-height:100px;
+	text-shadow: 1px 1px 1px #ccc, 0 0 10px #169FE6, 0 0 20px #169FE6, 0 0 30px #169FE6, 0 0 40px #EA9317, 0 0 70px #EA9317, 0 0 80px #EA9317, 0 0 100px #EA9317, 0 0 150px #EA9317;
+	transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	animation: run ease-in-out 9s infinite;
+	-moz-animation: run ease-in-out 9s infinite ;
+	-webkit-animation: run ease-in-out 9s infinite;
+	-ms-animation: run ease-in-out 9s infinite;
+	-o-animation: run ease-in-out 9s infinite;
+}
+@keyframes run {
+	0% {
+	transform:rotateX(-5deg) rotateY(0);
+}
+50% {
+	transform:rotateX(0) rotateY(180deg);
+	text-shadow: 1px 1px 1px #ccc, 0 0 10px #169FE6, 0 0 20px #169FE6, 0 0 30px #169FE6, 0 0 40px #3EFF3E, 0 0 70px #27A0E0, 0 0 80px #27A0E0, 0 0 100px #088ED3, 0 0 150px #088ED3;
+}
+100% {
+	transform:rotateX(5deg) rotateY(360deg);
+}
+} @-webkit-keyframes run {
+	0% {
+	transform:rotateX(-5deg) rotateY(0);
+}
+50% {
+	transform:rotateX(0) rotateY(180deg);
+	text-shadow: 1px 1px 1px #ccc, 0 0 10px #169FE6, 0 0 20px #169FE6, 0 0 30px #169FE6, 0 0 40px #3EFF3E, 0 0 70px #27A0E0, 0 0 80px #27A0E0, 0 0 100px #088ED3, 0 0 150px #088ED3;
+}
+100% {
+	transform:rotateX(5deg) rotateY(360deg);
+}
+} @-moz-keyframes run {
+	0% {
+	transform:rotateX(-5deg) rotateY(0);
+}
+50% {
+	transform:rotateX(0) rotateY(180deg);
+	text-shadow: 1px 1px 1px #ccc, 0 0 10px #169FE6, 0 0 20px #169FE6, 0 0 30px #169FE6, 0 0 40px #3EFF3E, 0 0 70px #27A0E0, 0 0 80px #27A0E0, 0 0 100px #088ED3, 0 0 150px #088ED3;
+}
+100% {
+	transform:rotateX(5deg) rotateY(360deg);
+}
+} @-ms-keyframes run {
+	0% {
+	transform:rotateX(-5deg) rotateY(0);
+}
+50% {
+	transform:rotateX(0) rotateY(180deg);
+	text-shadow: 1px 1px 1px #ccc, 0 0 10px #169FE6, 0 0 20px #169FE6, 0 0 30px #169FE6, 0 0 40px #3EFF3E, 0 0 70px #27A0E0, 0 0 80px #27A0E0, 0 0 100px #088ED3, 0 0 150px #088ED3;
+}
+100% {
+	transform:rotateX(5deg) rotateY(360deg);
+}
+}
+.div5 {
+	width:20px;
+	height:50px;
+	position: fixed;
+	top:420px;
+	left:40px;
+	display: none;
+}
